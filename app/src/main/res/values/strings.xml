@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">NFC</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">NFC Helper</string>
+    <string name="title_card_list">卡片</string>
+    <string name="title_paint_list">绘图</string>
+    <string name="title_about">关于</string>
+    <string name="hint_reader">将IC卡靠近感应区读取数据</string>
 </resources>

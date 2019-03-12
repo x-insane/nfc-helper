@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.xinsane.nfc.view.SquareRelativeLayoutWidth
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.xinsane.nfc.view.PaintView
+            android:id="@+id/paint_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.xinsane.nfc.view.SquareRelativeLayoutWidth>
+
+    <TextView
+        android:id="@+id/text_paint_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>
